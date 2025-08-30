@@ -18,25 +18,19 @@
             background: linear-gradient(135deg, #B8860B 0%, #DAA520 25%, #FFD700 50%, #FFA500 75%, #FF6347 100%);
         }
         .bg-haldi-theme {
-            background-image: url('/images/haldi-sunflower.svg');
+            background-image: url('/images/haldi-background.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .haldi-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.9) 0%, rgba(255, 165, 0, 0.8) 50%, rgba(255, 140, 0, 0.9) 100%);
         }
         .gradient-onam {
             background: linear-gradient(135deg, #F8D775 0%, #FFD700 25%, #FFA500 50%, #FF8C00 75%, #FF7F50 100%);
         }
-        .bg-onam-theme {
-            background-image: url('/images/onam-dj-mahabali.svg');
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
         .onam-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.9) 0%, rgba(255, 165, 0, 0.8) 50%, rgba(255, 140, 0, 0.9) 100%);
         }
         .text-gold {
             color: #FFD700;

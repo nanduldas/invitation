@@ -18,25 +18,19 @@
             background: linear-gradient(135deg, #B8860B 0%, #DAA520 25%, #FFD700 50%, #FFA500 75%, #FF6347 100%);
         }
         .bg-haldi-theme {
-            background-image: url('/images/haldi-sunflower.svg');
+            background-image: url('/images/haldi-background.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         .haldi-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.9) 0%, rgba(255, 165, 0, 0.8) 50%, rgba(255, 140, 0, 0.9) 100%);
         }
         .gradient-onam {
-            background: linear-gradient(135deg, #F8D775 0%, #FFD700 25%, #FFA500 50%, #FF8C00 75%, #FF7F50 100%);
-        }
-        .bg-onam-theme {
-            background-image: url('/images/onam-dj-mahabali.svg');
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: linear-gradient(135deg, #F8F6F0 0%, #FFF8DC 25%, #FFFAF0 50%, #F5F5DC 75%, #FAF0E6 100%);
         }
         .onam-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.9) 0%, rgba(255, 165, 0, 0.8) 50%, rgba(255, 140, 0, 0.9) 100%);
         }
         .text-gold {
             color: #FFD700;
@@ -160,11 +154,11 @@
                         
                         <div class="flex space-x-3">
                             <button type="button" onclick="closeModal()" 
-                                    class="flex-1 px-4 py-2 btn-gold-light rounded-md transition-colors">
+                                    class="flex-1 px-4 py-2 text-gray-600 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
                                 Cancel
                             </button>
                             <button type="submit" 
-                                    class="flex-1 px-4 py-2 btn-gold rounded-md">
+                                    class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
                                 Register
                             </button>
                         </div>

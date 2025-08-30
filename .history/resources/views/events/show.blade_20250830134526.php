@@ -5,14 +5,8 @@
 @section('content')
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Back Button -->
-                               <div class="flex items-center">
-                                <span class="text-2xl mr-3">🎉</span>
-                                <div>
-                                    <div class="font-semibold text-gold">Special Occasion</div>
-                                    <div class="text-gray-600">Post-wedding Onam with families</div>
-                                </div>
-                            </div>
-        <a href="{{ route('home') }}" class="inline-flex items-center text-black hover:text-white transition-colors">
+    <div class="mb-6">
+        <a href="{{ route('home') }}" class="inline-flex items-center text-white/80 hover:text-white transition-colors">
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
             </svg>
@@ -77,18 +71,17 @@
                                 </div>
                             </div>
                             <div class="flex items-center">
-                                <span class="text-2xl mr-3">📍</span>
+                                <span class="text-2xl mr-3">📍</span><a href="https://maps.app.goo.gl/8pJX4TCWVV1bqgzKA" target="_blank" class="text-gold hover:text-gold-shining underline">View Location on Map</a></p>
                                 <div>
                                     <div class="font-semibold text-gold">Venue</div>
-                                <a href="https://maps.app.goo.gl/8pJX4TCWVV1bqgzKA" target="_blank" class="text-gold hover:text-gold-shining underline">View Location on Map</a></p>
-                                  
+                                    <div class="text-gray-600">Location details coming soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">👗</span>
                                 <div>
                                     <div class="font-semibold text-gold">Dress Code</div>
-                                    <div class="text-gray-600">Traditional Indian wear preferred (Yellow)</div>
+                                    <div class="text-gray-600">Traditional Indian wear preferred</div>
                                 </div>
                             </div>
                         </div>
@@ -131,35 +124,26 @@
             <div class="p-8">
                 <div class="grid md:grid-cols-2 gap-8 mb-8">
                     <div>
-                        <h2 class="text-2xl font-bold text-gold-shining mb-4">About Our Special Onam</h2>
+                        <h2 class="text-2xl font-bold text-gold-shining mb-4">About Onam</h2>
                         <p class="text-gray-600 mb-4">
-                            Join us for an extraordinary Onam celebration as our beloved bride and groom celebrate 
-                            this auspicious festival with their families and closest loved ones! This isn't just any 
-                            Onam - it's a special pre-wedding celebration that honors King Mahabali's homecoming 
-                            while blessing the couple's new journey together.
+                            Onam is Kerala's most important festival, celebrating the golden age of King Mahabali. 
+                            This year, join us for a unique blend of tradition and modernity as our beloved king 
+                            returns as a DJ, spinning the perfect mix of celebration, prosperity, and unity!
                         </p>
                         <p class="text-gray-600 mb-4">
-                            We've crafted the perfect day that begins with authentic Kerala traditions - beautiful 
-                            Pookalam creation, traditional Sadhya feast served on banana leaves, and cherished 
-                            cultural games that bring families together. As the sun sets, we'll transform into 
-                            a vibrant dance floor with our DJ King Mahabali spinning the beats that unite 
-                            generations in celebration!
-                        </p>
-                        <p class="text-gray-600 mb-4">
-                            <strong>From Traditional Roots to Modern Beats:</strong> Experience the magic as we 
-                            start with Kerala's timeless customs and crescendo into an unforgettable dance party 
-                            under the stars. It's tradition meets celebration - exactly how love should be honored!
+                            Experience the magic of Kerala through traditional Sadhya feast, beautiful Pookalam 
+                            (flower carpets), classical Kathakali performances, modern DJ music, and the 
+                            joyful spirit that makes Onam truly special.
                         </p>
                         
                         <h3 class="text-lg font-semibold text-gold mb-2">Festival Highlights:</h3>
                         <ul class="text-gray-600 space-y-1">
-                            <li>• 🌺 Traditional Pookalam competition with family teams</li>
-                            <li>• 🍛 Authentic Kerala Sadhya served on banana leaves</li>
-                            <li>• 🎯 Classic Onam games: Kaikottikali, Pulikali & more</li>
-                            <li>• 🎭 Kathakali performances & cultural showcases</li>
-                            <li>• 🎵 DJ music transition from traditional to modern hits</li>
-                            <li>• 💃 Dance floor finale with rocking music for all ages</li>
-                            <li>• 📸 Special photo sessions capturing precious family moments</li>
+                            <li>• DJ Music & Traditional songs</li>
+                            <li>• Traditional Sadhya served on banana leaves</li>
+                            <li>• Pookalam (flower arrangement) competition</li>
+                            <li>• Kathakali and classical dance performances</li>
+                            <li>• Modern party games and traditional activities</li>
+                            <li>• Cultural programs and live entertainment</li>
                         </ul>
                     </div>                    <div>
                         <h2 class="text-2xl font-bold text-gold-shining mb-4">Event Details</h2>
@@ -168,21 +152,21 @@
                                 <span class="text-2xl mr-3">📅</span>
                                 <div>
                                     <div class="font-semibold text-gold">Date</div>
-                                    <div class="text-gray-600">05 September 2025</div>
+                                    <div class="text-gray-600">To be announced soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">⏰</span>
                                 <div>
                                     <div class="font-semibold text-gold">Time</div>
-                                    <div class="text-gray-600">Full day celebration with DJ</div>
+                                    <div class="text-gray-600">Full day celebration with DJ sets</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">📍</span>
                                 <div>
                                     <div class="font-semibold text-gold">Venue</div>
-                                    <div class="text-gray-600">Groom's Residence</div>
+                                    <div class="text-gray-600">Location details coming soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
@@ -208,18 +192,12 @@
                 </div>
                 
                 <div class="bg-gradient-to-r from-yellow-100 to-amber-100 rounded-lg p-6 border border-yellow-200/50">
-                    <h3 class="text-xl font-bold text-gold-shining mb-3">A Special Celebration Story</h3>
+                    <h3 class="text-xl font-bold text-gold-shining mb-3">The Legend of DJ King Mahabali</h3>
                     <p class="text-gray-700">
-                        This Onam holds extra magic as our bride and groom celebrate King Mahabali's homecoming 
-                        alongside their own upcoming union! Surrounded by their closest family members, this 
-                        pre-wedding celebration weaves together two beautiful traditions - the return of Kerala's 
-                        beloved king and the blessing of a new couple's journey. 
-                    </p>
-                    <p class="text-gray-700 mt-3">
-                        <strong>From Dawn to Dusk:</strong> We'll honor our roots with morning rituals, traditional 
-                        games, and the sacred Sadhya feast, then dance the night away as DJ King Mahabali spins 
-                        beats that unite past and present. It's not just Onam - it's a love story written in 
-                        tradition and celebration! 💕🎵👑
+                        King Mahabali returns in style! Our beloved king, who once ruled Kerala's golden age, 
+                        now spins the perfect beats to celebrate his annual homecoming. This modern twist on 
+                        the traditional Onam story brings together the best of both worlds - honoring our 
+                        heritage while embracing contemporary celebration. Welcome back, Your Majesty! 🎵👑
                     </p>
                 </div>
             </div>

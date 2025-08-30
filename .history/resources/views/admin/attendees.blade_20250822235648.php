@@ -53,7 +53,7 @@
                     
                     <div class="mt-6 pt-4 border-t border-gray-200">
                         <button onclick="exportAttendees('haldi')" 
-                                class="w-full px-4 py-2 btn-gold rounded-lg">
+                                class="w-full px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors">
                             📄 Export Haldi Attendees List
                         </button>
                     </div>
@@ -128,23 +128,23 @@
     </div>
 
     <!-- Summary Statistics -->
-    <div class="mt-8 bg-white/95 rounded-xl shadow-xl p-6 border border-gray-200/50">
-        <h3 class="text-xl font-bold text-gold-shining mb-4">📊 Summary Statistics</h3>
+    <div class="mt-8 bg-white/95 rounded-xl shadow-xl p-6">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">📊 Summary Statistics</h3>
         <div class="grid md:grid-cols-4 gap-6">
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $haldiAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-amber-600">{{ $haldiAttendees->count() }}</div>
                 <div class="text-gray-600">Haldi Attendees</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $onamAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-blue-600">{{ $onamAttendees->count() }}</div>
                 <div class="text-gray-600">Onam Attendees</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $haldiAttendees->count() + $onamAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-green-600">{{ $haldiAttendees->count() + $onamAttendees->count() }}</div>
                 <div class="text-gray-600">Total Registrations</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">
+                <div class="text-3xl font-bold text-gray-800">
                     {{ $haldiAttendees->merge($onamAttendees)->unique('phone')->count() }}
                 </div>
                 <div class="text-gray-600">Unique People</div>

@@ -9,9 +9,9 @@
                                 <span class="text-2xl mr-3">🎉</span>
                                 <div>
                                     <div class="font-semibold text-gold">Special Occasion</div>
-                                    <div class="text-gray-600">Post-wedding Onam with families</div>
+                                    <div class="text-gray-600">Pre-wedding Onam with families</div>
                                 </div>
-                            </div>
+                            </div>lass="mb-6">
         <a href="{{ route('home') }}" class="inline-flex items-center text-black hover:text-white transition-colors">
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
@@ -168,21 +168,21 @@
                                 <span class="text-2xl mr-3">📅</span>
                                 <div>
                                     <div class="font-semibold text-gold">Date</div>
-                                    <div class="text-gray-600">05 September 2025</div>
+                                    <div class="text-gray-600">To be announced soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">⏰</span>
                                 <div>
                                     <div class="font-semibold text-gold">Time</div>
-                                    <div class="text-gray-600">Full day celebration with DJ</div>
+                                    <div class="text-gray-600">Full day celebration with DJ sets</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">📍</span>
                                 <div>
                                     <div class="font-semibold text-gold">Venue</div>
-                                    <div class="text-gray-600">Groom's Residence</div>
+                                    <div class="text-gray-600">Location details coming soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">

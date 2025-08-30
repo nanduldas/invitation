@@ -77,7 +77,7 @@
                     </p>
                     <div class="text-sm text-gray-500 space-y-1">
                         <p>📅 <strong>Date:</strong> 05 September 2025</p>
-                        <p>📍 <strong>Venue:</strong> Groom's Residence</p>
+                        <p>📍 <strong>Venue:</strong> To be announced</p>
                         <p>� <strong>Special:</strong> DJ Music & Traditional Sadhya</p>
                     </div>
                 </div>

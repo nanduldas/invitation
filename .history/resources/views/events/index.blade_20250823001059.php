@@ -26,16 +26,15 @@
             </div>
             <div class="p-6">
                 <div class="mb-4">
-                    <h3 class="text-xl font-semibold text-gold-shining mb-2">Sunflower Sacred Celebration</h3>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">A Traditional Celebration</h3>
                     <p class="text-gray-600 mb-4">
-                        Join us for a vibrant Haldi ceremony surrounded by beautiful sunflowers! This auspicious 
-                        occasion brings families together to celebrate with golden turmeric, radiant sunflower 
-                        decorations, traditional music, and joyful dance.
+                        Join us for a vibrant Haldi ceremony filled with joy, laughter, and beautiful traditions. 
+                        This auspicious occasion brings families together to celebrate with turmeric, music, and dance.
                     </p>
                     <div class="text-sm text-gray-500 space-y-1">
-                        <p>📅 <strong>Date:</strong> 03 September 2025</p>
-                        <p>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/8pJX4TCWVV1bqgzKA" target="_blank" class="text-gold hover:text-gold-shining underline">View Location on Map</a></p>
-                        <p>🌻 <strong>Theme:</strong> Golden Sunflower Garden</p>
+                        <p>📅 <strong>Date:</strong> Coming Soon</p>
+                        <p>📍 <strong>Venue:</strong> To be announced</p>
+                        <p>⏰ <strong>Time:</strong> Traditional timings</p>
                     </div>
                 </div>
                 <div class="mb-4">
@@ -63,21 +62,21 @@
                 <div class="onam-overlay h-full flex items-center justify-center">
                     <div class="text-center text-white">
                         <h2 class="text-3xl font-bold drop-shadow-lg">Onam Festival</h2>
-                        <p class="text-lg mt-1 drop-shadow">Onam Celebration</p>
+                        <p class="text-lg mt-1 drop-shadow">Kerala's Musical Celebration</p>
                     </div>
                 </div>
             </div>
             <div class="p-6">
                 <div class="mb-4">
-                    <h3 class="text-xl font-semibold text-gold-shining mb-2">Post-Wedding</h3>
+                    <h3 class="text-xl font-semibold text-gold-shining mb-2">The Musical Harvest Festival</h3>
                     <p class="text-gray-600 mb-4">
-                        Join King Mahabali's modern celebration! Experience our most treasured festival with 
+                        Join King Mahabali's modern celebration! Experience Kerala's most treasured festival with 
                         a contemporary twist - featuring DJ music, traditional Sadhya feast, vibrant Pookalam designs, 
                         classical dance performances, and the joyous spirit of our beloved king's homecoming.
                     </p>
                     <div class="text-sm text-gray-500 space-y-1">
-                        <p>📅 <strong>Date:</strong> 05 September 2025</p>
-                        <p>📍 <strong>Venue:</strong> Groom's Residence</p>
+                        <p>📅 <strong>Date:</strong> Coming Soon</p>
+                        <p>📍 <strong>Venue:</strong> To be announced</p>
                         <p>� <strong>Special:</strong> DJ Music & Traditional Sadhya</p>
                     </div>
                 </div>

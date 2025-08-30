@@ -1,0 +1,208 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF8DC"/>
+  
+  <!-- Music Notes around the character -->
+  <g fill="#8B4513" stroke="#8B4513" stroke-width="3">
+    <!-- Top left notes -->
+    <g transform="translate(100, 120)">
+      <circle cx="0" cy="0" r="12" fill="#8B4513"/>
+      <rect x="8" y="-40" width="4" height="40"/>
+      <path d="M12,-40 Q20,-35 15,-30" fill="none" stroke-width="2"/>
+    </g>
+    
+    <!-- Top right notes -->
+    <g transform="translate(650, 150)">
+      <circle cx="0" cy="0" r="10" fill="#8B4513"/>
+      <rect x="7" y="-35" width="3" height="35"/>
+      <path d="M10,-35 Q17,-30 13,-25" fill="none" stroke-width="2"/>
+    </g>
+    
+    <!-- Left side notes -->
+    <g transform="translate(80, 300)">
+      <circle cx="0" cy="0" r="14" fill="#8B4513"/>
+      <rect x="10" y="-45" width="4" height="45"/>
+    </g>
+    
+    <!-- Right side notes -->
+    <g transform="translate(680, 320)">
+      <circle cx="0" cy="0" r="12" fill="#8B4513"/>
+      <rect x="8" y="-40" width="4" height="40"/>
+    </g>
+    
+    <!-- Bottom left notes -->
+    <g transform="translate(120, 600)">
+      <circle cx="0" cy="0" r="11" fill="#8B4513"/>
+      <rect x="8" y="-38" width="3" height="38"/>
+    </g>
+    
+    <!-- Bottom right notes -->
+    <g transform="translate(630, 580)">
+      <circle cx="0" cy="0" r="13" fill="#8B4513"/>
+      <rect x="9" y="-42" width="4" height="42"/>
+    </g>
+  </g>
+  
+  <!-- DJ Turntable Base -->
+  <g transform="translate(400, 550)">
+    <!-- Table legs -->
+    <rect x="-120" y="60" width="8" height="60" fill="#654321"/>
+    <rect x="-40" y="60" width="8" height="60" fill="#654321"/>
+    <rect x="32" y="60" width="8" height="60" fill="#654321"/>
+    <rect x="112" y="60" width="8" height="60" fill="#654321"/>
+    
+    <!-- Main turntable body -->
+    <rect x="-140" y="0" width="280" height="60" rx="10" fill="#5D4037"/>
+    <rect x="-135" y="5" width="270" height="50" rx="8" fill="#6D4C41"/>
+    
+    <!-- Left turntable -->
+    <circle cx="-70" cy="30" r="35" fill="#3E2723"/>
+    <circle cx="-70" cy="30" r="30" fill="#1A1A1A"/>
+    <circle cx="-70" cy="30" r="8" fill="#F5F5DC"/>
+    <circle cx="-70" cy="30" r="3" fill="#1A1A1A"/>
+    
+    <!-- Right turntable -->
+    <circle cx="70" cy="30" r="35" fill="#3E2723"/>
+    <circle cx="70" cy="30" r="30" fill="#1A1A1A"/>
+    <circle cx="70" cy="30" r="8" fill="#F5F5DC"/>
+    <circle cx="70" cy="30" r="3" fill="#1A1A1A"/>
+    
+    <!-- Control knobs -->
+    <circle cx="-20" cy="15" r="4" fill="#FFD700"/>
+    <circle cx="0" cy="15" r="4" fill="#FFD700"/>
+    <circle cx="20" cy="15" r="4" fill="#FFD700"/>
+    
+    <!-- Mixer slider -->
+    <rect x="-25" y="35" width="50" height="6" rx="3" fill="#333"/>
+    <rect x="-2" y="33" width="4" height="10" rx="2" fill="#FFD700"/>
+  </g>
+  
+  <!-- King Mahabali Character -->
+  <g transform="translate(400, 350)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="45" ry="55" fill="#D2691E"/>
+    
+    <!-- Orange drape/cloth -->
+    <path d="M-35,0 Q-50,20 -45,50 Q-40,80 -20,85 L20,85 Q40,80 45,50 Q50,20 35,0 Z" fill="#FF6347"/>
+    <path d="M-30,5 Q-35,15 -30,25 Q-25,35 -15,40 L15,40 Q25,35 30,25 Q35,15 30,5 Z" fill="#FF7F50"/>
+    
+    <!-- Arms -->
+    <ellipse cx="-55" cy="10" rx="15" ry="35" fill="#D2691E" transform="rotate(-20)"/>
+    <ellipse cx="55" cy="10" rx="15" ry="35" fill="#D2691E" transform="rotate(20)"/>
+    
+    <!-- Left hand (pointing up) -->
+    <g transform="translate(-65, -15) rotate(-30)">
+      <circle cx="0" cy="0" r="12" fill="#D2691E"/>
+      <!-- Fingers -->
+      <ellipse cx="-8" cy="-15" rx="3" ry="8" fill="#D2691E"/>
+      <ellipse cx="-3" cy="-18" rx="3" ry="10" fill="#D2691E"/>
+      <ellipse cx="3" cy="-17" rx="3" ry="9" fill="#D2691E"/>
+      <ellipse cx="8" cy="-14" rx="3" ry="7" fill="#D2691E"/>
+      <!-- Thumb up -->
+      <ellipse cx="12" cy="-8" rx="4" ry="8" fill="#D2691E" transform="rotate(45)"/>
+    </g>
+    
+    <!-- Right hand (on turntable) -->
+    <circle cx="75" cy="25" r="12" fill="#D2691E"/>
+    
+    <!-- Gold bracelet on left wrist -->
+    <ellipse cx="-45" cy="0" rx="8" ry="4" fill="#FFD700" transform="rotate(-20)"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-60" r="40" fill="#D2691E"/>
+    
+    <!-- Crown -->
+    <g transform="translate(0, -85)">
+      <!-- Crown base -->
+      <ellipse cx="0" cy="0" rx="45" ry="12" fill="#FFD700"/>
+      <ellipse cx="0" cy="-3" rx="42" ry="10" fill="#FFA500"/>
+      
+      <!-- Crown points -->
+      <polygon points="-30,-12 -25,-25 -20,-12" fill="#FFD700"/>
+      <polygon points="-15,-12 -10,-30 -5,-12" fill="#FFD700"/>
+      <polygon points="0,-12 5,-35 10,-12" fill="#FFD700"/>
+      <polygon points="15,-12 20,-30 25,-12" fill="#FFD700"/>
+      <polygon points="30,-12 35,-25 40,-12" fill="#FFD700"/>
+      
+      <!-- Crown jewels -->
+      <circle cx="-22" cy="-18" r="3" fill="#FF6347"/>
+      <circle cx="-7" cy="-23" r="4" fill="#FF6347"/>
+      <circle cx="7" cy="-28" r="5" fill="#FF6347"/>
+      <circle cx="22" cy="-23" r="4" fill="#FF6347"/>
+      <circle cx="37" cy="-18" r="3" fill="#FF6347"/>
+    </g>
+    
+    <!-- Hair -->
+    <path d="M-35,-85 Q-45,-90 -40,-95 Q-30,-100 -20,-95 Q-10,-100 0,-95 Q10,-100 20,-95 Q30,-100 40,-95 Q45,-90 35,-85" fill="#4A4A4A"/>
+    
+    <!-- Face features -->
+    <!-- Eyes -->
+    <ellipse cx="-12" cy="-65" rx="6" ry="4" fill="white"/>
+    <ellipse cx="12" cy="-65" rx="6" ry="4" fill="white"/>
+    <circle cx="-12" cy="-65" r="3" fill="black"/>
+    <circle cx="12" cy="-65" r="3" fill="black"/>
+    <circle cx="-11" cy="-66" r="1" fill="white"/>
+    <circle cx="13" cy="-66" r="1" fill="white"/>
+    
+    <!-- Eyebrows -->
+    <path d="M-18,-72 Q-12,-75 -6,-72" fill="#4A4A4A" stroke="#4A4A4A" stroke-width="2"/>
+    <path d="M6,-72 Q12,-75 18,-72" fill="#4A4A4A" stroke="#4A4A4A" stroke-width="2"/>
+    
+    <!-- Nose -->
+    <ellipse cx="0" cy="-55" rx="3" ry="6" fill="#CD853F"/>
+    
+    <!-- Mustache -->
+    <path d="M-15,-48 Q-8,-45 0,-48 Q8,-45 15,-48 Q20,-50 15,-52 Q8,-50 0,-52 Q-8,-50 -15,-52 Q-20,-50 -15,-48" fill="#4A4A4A"/>
+    
+    <!-- Mouth (smiling) -->
+    <path d="M-10,-40 Q0,-35 10,-40" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-8,-38 Q0,-33 8,-38" fill="#FF6B6B"/>
+    
+    <!-- Teeth -->
+    <rect x="-6" y="-38" width="2" height="3" fill="white"/>
+    <rect x="-3" y="-38" width="2" height="3" fill="white"/>
+    <rect x="0" y="-38" width="2" height="3" fill="white"/>
+    <rect x="3" y="-38" width="2" height="3" fill="white"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-35" cy="-60" rx="8" ry="12" fill="#D2691E"/>
+    <ellipse cx="35" cy="-60" rx="8" ry="12" fill="#D2691E"/>
+    
+    <!-- Earrings -->
+    <circle cx="-35" cy="-55" r="4" fill="#FFD700"/>
+    <circle cx="35" cy="-55" r="4" fill="#FFD700"/>
+    
+    <!-- Necklace -->
+    <ellipse cx="0" cy="-15" rx="35" ry="8" fill="none" stroke="#FFD700" stroke-width="6"/>
+    <!-- Necklace beads -->
+    <circle cx="-25" cy="-18" r="4" fill="#FFD700"/>
+    <circle cx="-15" cy="-20" r="4" fill="#FFD700"/>
+    <circle cx="-5" cy="-21" r="4" fill="#FFD700"/>
+    <circle cx="5" cy="-21" r="4" fill="#FFD700"/>
+    <circle cx="15" cy="-20" r="4" fill="#FFD700"/>
+    <circle cx="25" cy="-18" r="4" fill="#FFD700"/>
+  </g>
+  
+  <!-- Additional floating music notes -->
+  <g fill="#8B4513">
+    <g transform="translate(200, 250) rotate(15)">
+      <circle cx="0" cy="0" r="8" fill="#8B4513"/>
+      <rect x="6" y="-25" width="3" height="25"/>
+    </g>
+    
+    <g transform="translate(550, 280) rotate(-20)">
+      <circle cx="0" cy="0" r="9" fill="#8B4513"/>
+      <rect x="7" y="-30" width="3" height="30"/>
+    </g>
+    
+    <g transform="translate(150, 450) rotate(25)">
+      <circle cx="0" cy="0" r="7" fill="#8B4513"/>
+      <rect x="5" y="-22" width="2" height="22"/>
+    </g>
+    
+    <g transform="translate(620, 460) rotate(-15)">
+      <circle cx="0" cy="0" r="10" fill="#8B4513"/>
+      <rect x="8" y="-32" width="3" height="32"/>
+    </g>
+  </g>
+</svg>

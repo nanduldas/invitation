@@ -9,83 +9,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         .gradient-bg {
-            background: linear-gradient(135deg, #F8F6F0 0%, #FFF8DC 25%, #FFFAF0 50%, #FAF0E6 75%, #FDF5E6 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .gradient-haldi {
-            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 25%, #FFD700 50%, #FFA500 75%, #FF8C00 100%);
-        }
-        .gradient-haldi-deep {
-            background: linear-gradient(135deg, #B8860B 0%, #DAA520 25%, #FFD700 50%, #FFA500 75%, #FF6347 100%);
-        }
-        .bg-haldi-theme {
-            background-image: url('/images/haldi-sunflower.svg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .haldi-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
         }
         .gradient-onam {
-            background: linear-gradient(135deg, #F8D775 0%, #FFD700 25%, #FFA500 50%, #FF8C00 75%, #FF7F50 100%);
-        }
-        .bg-onam-theme {
-            background-image: url('/images/onam-dj-mahabali.svg');
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .onam-overlay {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.7) 50%, rgba(255, 140, 0, 0.8) 100%);
-        }
-        .text-gold {
-            color: #FFD700;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-        }
-        .text-gold-shining {
-            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700, #DAA520, #FFD700);
-            background-size: 400% 400%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: goldShine 3s ease-in-out infinite;
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
-        }
-        @keyframes goldShine {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        .btn-gold {
-            background: linear-gradient(135deg, #DAA520 0%, #FFD700 50%, #FFA500 100%);
-            color: white;
-            border: 2px solid #B8860B;
-            transition: all 0.3s ease;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-        }
-        .btn-gold:hover {
-            background: linear-gradient(135deg, #B8860B 0%, #DAA520 50%, #FFD700 100%);
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(218, 165, 32, 0.4);
-        }
-        .btn-gold-light {
-            background: linear-gradient(135deg, #F8F6F0 0%, #FFF8DC 50%, #FFFAF0 100%);
-            color: #B8860B;
-            border: 2px solid #DAA520;
-            transition: all 0.3s ease;
-        }
-        .btn-gold-light:hover {
-            background: linear-gradient(135deg, #DAA520 0%, #FFD700 50%, #FFA500 100%);
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(218, 165, 32, 0.4);
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
         }
         .card-hover {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -103,19 +33,19 @@
     </style>
 </head>
 <body class="min-h-screen gradient-bg">
-    <nav class="bg-white/20 backdrop-blur-sm border-b border-gray-200/30">
+    <nav class="bg-white/10 backdrop-blur-sm border-b border-white/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="{{ route('home') }}" class="text-gold-shining text-xl font-bold">
+                    <a href="{{ route('home') }}" class="text-white text-xl font-bold">
                         🎉 Event Invitations
                     </a>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="{{ route('home') }}" class="text-gray-700 hover:text-gold transition-colors">
+                    <a href="{{ route('home') }}" class="text-white/80 hover:text-white transition-colors">
                         Home
                     </a>
-                    <a href="{{ route('admin.attendees') }}" class="text-gray-700 hover:text-gold transition-colors">
+                    <a href="{{ route('admin.attendees') }}" class="text-white/80 hover:text-white transition-colors">
                         Admin
                     </a>
                 </div>
@@ -160,11 +90,11 @@
                         
                         <div class="flex space-x-3">
                             <button type="button" onclick="closeModal()" 
-                                    class="flex-1 px-4 py-2 btn-gold-light rounded-md transition-colors">
+                                    class="flex-1 px-4 py-2 text-gray-600 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
                                 Cancel
                             </button>
                             <button type="submit" 
-                                    class="flex-1 px-4 py-2 btn-gold rounded-md">
+                                    class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
                                 Register
                             </button>
                         </div>

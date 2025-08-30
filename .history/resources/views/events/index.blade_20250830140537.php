@@ -63,21 +63,21 @@
                 <div class="onam-overlay h-full flex items-center justify-center">
                     <div class="text-center text-white">
                         <h2 class="text-3xl font-bold drop-shadow-lg">Onam Festival</h2>
-                        <p class="text-lg mt-1 drop-shadow">Onam Celebration</p>
+                        <p class="text-lg mt-1 drop-shadow">Onam Celebration (Post-Wedding)</p>
                     </div>
                 </div>
             </div>
             <div class="p-6">
                 <div class="mb-4">
-                    <h3 class="text-xl font-semibold text-gold-shining mb-2">Post-Wedding</h3>
+                    <h3 class="text-xl font-semibold text-gold-shining mb-2">The Musical Harvest Festival</h3>
                     <p class="text-gray-600 mb-4">
                         Join King Mahabali's modern celebration! Experience our most treasured festival with 
                         a contemporary twist - featuring DJ music, traditional Sadhya feast, vibrant Pookalam designs, 
                         classical dance performances, and the joyous spirit of our beloved king's homecoming.
                     </p>
                     <div class="text-sm text-gray-500 space-y-1">
-                        <p>📅 <strong>Date:</strong> 05 September 2025</p>
-                        <p>📍 <strong>Venue:</strong> Groom's Residence</p>
+                        <p>📅 <strong>Date:</strong> Coming Soon</p>
+                        <p>📍 <strong>Venue:</strong> To be announced</p>
                         <p>� <strong>Special:</strong> DJ Music & Traditional Sadhya</p>
                     </div>
                 </div>

@@ -175,14 +175,14 @@
                                 <span class="text-2xl mr-3">⏰</span>
                                 <div>
                                     <div class="font-semibold text-gold">Time</div>
-                                    <div class="text-gray-600">Full day celebration with DJ</div>
+                                    <div class="text-gray-600">Full day celebration with DJ sets</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">📍</span>
                                 <div>
                                     <div class="font-semibold text-gold">Venue</div>
-                                    <div class="text-gray-600">Groom's Residence</div>
+                                    <div class="text-gray-600">Location details coming soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">

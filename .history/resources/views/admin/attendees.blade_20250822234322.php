@@ -53,7 +53,7 @@
                     
                     <div class="mt-6 pt-4 border-t border-gray-200">
                         <button onclick="exportAttendees('haldi')" 
-                                class="w-full px-4 py-2 btn-gold rounded-lg">
+                                class="w-full px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors">
                             📄 Export Haldi Attendees List
                         </button>
                     </div>
@@ -69,19 +69,17 @@
 
         <!-- Onam Event Attendees -->
         <div class="bg-white/95 rounded-xl shadow-xl overflow-hidden">
-            <div class="gradient-onam relative">
-                <div class="onam-overlay p-6 text-white">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <h2 class="text-2xl font-bold flex items-center drop-shadow-lg">
-                                🌾 Onam Festival
-                            </h2>
-                            <p class="text-white/90 mt-1 drop-shadow">Registered Attendees</p>
-                        </div>
-                        <div class="text-right">
-                            <div class="text-3xl font-bold drop-shadow-lg">{{ $onamAttendees->count() }}</div>
-                            <div class="text-sm text-white/80 drop-shadow">Total</div>
-                        </div>
+            <div class="gradient-onam p-6 text-white">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h2 class="text-2xl font-bold flex items-center">
+                            🌾 Onam Festival
+                        </h2>
+                        <p class="text-white/90 mt-1">Registered Attendees</p>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-3xl font-bold">{{ $onamAttendees->count() }}</div>
+                        <div class="text-sm text-white/80">Total</div>
                     </div>
                 </div>
             </div>
@@ -90,9 +88,9 @@
                 @if($onamAttendees->count() > 0)
                     <div class="space-y-3 max-h-96 overflow-y-auto">
                         @foreach($onamAttendees as $index => $attendee)
-                            <div class="flex items-center justify-between p-3 bg-gradient-to-br from-yellow-50 to-amber-50 rounded-lg border border-yellow-200/50">
+                            <div class="flex items-center justify-between p-3 bg-blue-50 rounded-lg border border-blue-200">
                                 <div class="flex items-center space-x-3">
-                                    <div class="w-8 h-8 bg-gradient-to-br from-yellow-500 to-amber-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                                    <div class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
                                         {{ $index + 1 }}
                                     </div>
                                     <div>
@@ -112,7 +110,7 @@
                     
                     <div class="mt-6 pt-4 border-t border-gray-200">
                         <button onclick="exportAttendees('onam')" 
-                                class="w-full px-4 py-2 btn-gold rounded-lg">
+                                class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                             📄 Export Onam Attendees List
                         </button>
                     </div>
@@ -128,23 +126,23 @@
     </div>
 
     <!-- Summary Statistics -->
-    <div class="mt-8 bg-white/95 rounded-xl shadow-xl p-6 border border-gray-200/50">
-        <h3 class="text-xl font-bold text-gold-shining mb-4">📊 Summary Statistics</h3>
+    <div class="mt-8 bg-white/95 rounded-xl shadow-xl p-6">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">📊 Summary Statistics</h3>
         <div class="grid md:grid-cols-4 gap-6">
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $haldiAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-amber-600">{{ $haldiAttendees->count() }}</div>
                 <div class="text-gray-600">Haldi Attendees</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $onamAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-blue-600">{{ $onamAttendees->count() }}</div>
                 <div class="text-gray-600">Onam Attendees</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">{{ $haldiAttendees->count() + $onamAttendees->count() }}</div>
+                <div class="text-3xl font-bold text-green-600">{{ $haldiAttendees->count() + $onamAttendees->count() }}</div>
                 <div class="text-gray-600">Total Registrations</div>
             </div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-gold">
+                <div class="text-3xl font-bold text-purple-600">
                     {{ $haldiAttendees->merge($onamAttendees)->unique('phone')->count() }}
                 </div>
                 <div class="text-gray-600">Unique People</div>

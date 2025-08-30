@@ -9,9 +9,9 @@
                                 <span class="text-2xl mr-3">🎉</span>
                                 <div>
                                     <div class="font-semibold text-gold">Special Occasion</div>
-                                    <div class="text-gray-600">Post-wedding Onam with families</div>
+                                    <div class="text-gray-600">Pre-wedding Onam with families</div>
                                 </div>
-                            </div>
+                            </div>lass="mb-6">
         <a href="{{ route('home') }}" class="inline-flex items-center text-black hover:text-white transition-colors">
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
@@ -168,21 +168,21 @@
                                 <span class="text-2xl mr-3">📅</span>
                                 <div>
                                     <div class="font-semibold text-gold">Date</div>
-                                    <div class="text-gray-600">05 September 2025</div>
+                                    <div class="text-gray-600">To be announced soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">⏰</span>
                                 <div>
                                     <div class="font-semibold text-gold">Time</div>
-                                    <div class="text-gray-600">Full day celebration with DJ</div>
+                                    <div class="text-gray-600">Full day celebration with DJ sets</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
                                 <span class="text-2xl mr-3">📍</span>
                                 <div>
                                     <div class="font-semibold text-gold">Venue</div>
-                                    <div class="text-gray-600">Groom's Residence</div>
+                                    <div class="text-gray-600">Location details coming soon</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
@@ -208,18 +208,12 @@
                 </div>
                 
                 <div class="bg-gradient-to-r from-yellow-100 to-amber-100 rounded-lg p-6 border border-yellow-200/50">
-                    <h3 class="text-xl font-bold text-gold-shining mb-3">A Special Celebration Story</h3>
+                    <h3 class="text-xl font-bold text-gold-shining mb-3">The Legend of DJ King Mahabali</h3>
                     <p class="text-gray-700">
-                        This Onam holds extra magic as our bride and groom celebrate King Mahabali's homecoming 
-                        alongside their own upcoming union! Surrounded by their closest family members, this 
-                        pre-wedding celebration weaves together two beautiful traditions - the return of Kerala's 
-                        beloved king and the blessing of a new couple's journey. 
-                    </p>
-                    <p class="text-gray-700 mt-3">
-                        <strong>From Dawn to Dusk:</strong> We'll honor our roots with morning rituals, traditional 
-                        games, and the sacred Sadhya feast, then dance the night away as DJ King Mahabali spins 
-                        beats that unite past and present. It's not just Onam - it's a love story written in 
-                        tradition and celebration! 💕🎵👑
+                        King Mahabali returns in style! Our beloved king, who once ruled Kerala's golden age, 
+                        now spins the perfect beats to celebrate his annual homecoming. This modern twist on 
+                        the traditional Onam story brings together the best of both worlds - honoring our 
+                        heritage while embracing contemporary celebration. Welcome back, Your Majesty! 🎵👑
                     </p>
                 </div>
             </div>
